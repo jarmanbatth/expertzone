@@ -1,0 +1,23 @@
+#all
+{
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#news
+{
+    width:250px;
+    float: left;
+}
+#right
+{
+    width:250px;
+    float:right;
+
+}
+#main
+{
+    width:auto;
+    margin-left: 251px;
+    margin-right: 251px;
+}

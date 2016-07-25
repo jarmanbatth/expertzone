@@ -1,0 +1,17 @@
+<?php
+session_start();
+if($_REQUEST['q']=="admin")
+{
+    session_destroy();
+    header("location:login.php");
+}
+elseif($_REQUEST['q']=="user")
+{
+    session_destroy();
+    header("location:user_login.php");
+}
+elseif($_REQUEST['q']=="emp")
+{
+    session_destroy();
+    header("location:emp_login.php");
+}
